@@ -1,0 +1,16 @@
+# 运行产物（截图、报告等）
+artifacts/
+*.log
+
+# 本地依赖（本 skill 本身零依赖，但允许临时装 ws 兜底）
+node_modules/
+package-lock.json
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 调试残留
+*.tmp
